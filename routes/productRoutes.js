@@ -10,6 +10,8 @@ const {
     updateStatus
 } = require("../controllers/productController");
 
+router.post("/test", testcheck);
+
 router.post("/", createProduct);
 
 router.get("/", getProducts);

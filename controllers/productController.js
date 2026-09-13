@@ -1,5 +1,13 @@
 const db = require("../db");
 
+
+// TEST CHECK
+const testcheck = (req, res) => {
+    res.json({
+        message: "Test check successful"
+    });
+}
+
 // CREATE
 const createProduct = (req, res) => {
 
